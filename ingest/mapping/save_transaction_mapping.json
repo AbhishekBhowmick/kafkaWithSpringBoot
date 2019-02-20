@@ -1,0 +1,97 @@
+{
+    "_all": {
+        "enabled": true
+    },
+    "type" : "object",
+  "properties" : {
+    "salesType" : {
+      "type" : "string"
+    },
+    "transTime" : {
+      "type" : "string"
+    },
+    "postingStatus" : {
+      "type" : "string"
+    },
+    "transType" : {
+      "type" : "string"
+    },
+    "transDate" : {
+      "type" : "object",
+      "properties" : {
+        "timezoneOffset" : {
+          "type" : "integer"
+        },
+        "day" : {
+          "type" : "integer"
+        },
+        "hours" : {
+          "type" : "integer"
+        },
+        "minutes" : {
+          "type" : "integer"
+        },
+        "year" : {
+          "type" : "integer"
+        },
+        "time" : {
+          "type" : "integer"
+        },
+        "seconds" : {
+          "type" : "integer"
+        },
+        "date" : {
+          "type" : "integer"
+        },
+        "month" : {
+          "type" : "integer"
+        }
+      }
+    },
+    "transactionId" : {
+      "type" : "integer"
+    },
+    "isTraining" : {
+      "type" : "boolean"
+    },
+    "staffId" : {
+      "type" : "integer"
+    },
+    "costAmt" : {
+      "type" : "integer"
+    },
+    "postStatementNo" : {
+      "type" : "string"
+    },
+    "payment" : {
+      "type" : "integer"
+    },
+    "netAmt" : {
+      "type" : "integer"
+    },
+    "managerId" : {
+      "type" : "integer"
+    },
+    "grossAmt" : {
+      "type" : "integer"
+    },
+    "receiptNo" : {
+      "type" : "string"
+    },
+    "posTerminalNo" : {
+      "type" : "string"
+    },
+    "statementNo" : {
+      "type" : "string"
+    },
+    "discountAmt" : {
+      "type" : "integer"
+    },
+    "consumerNo" : {
+      "type" : "integer"
+    },
+    "storeId" : {
+      "type" : "integer"
+    }
+  }
+}
